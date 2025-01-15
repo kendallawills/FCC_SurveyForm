@@ -38,12 +38,12 @@ form {
     display: block;
     margin: 0 auto;
     font-size: 1.25em;
-    border-radius: .5%;
+    border-radius: 0.5%;
 }
 
 fieldset {
     border: none;
-    padding: 2em;
+    padding: 2rem;
 }
 
 label {
@@ -55,4 +55,18 @@ label {
     width: 100%;
     margin: 10px 0 0 0;
     min-height: 2em;
+}
+
+.profile, textarea {
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+}
+
+#profile, #radio, #drop, #box, #textarea {
+    margin-bottom: 2rem;
+}
+
+.profile, #dropdown {
+    margin: 0.5rem 0;
 }
