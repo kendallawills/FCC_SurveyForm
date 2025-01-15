@@ -3,25 +3,26 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #f3f3f3;
-    /* background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
-    background-repeat: no-repeat; */
-    background-color: grey;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-color: grey; */
+    height: 100vh;
     width: 100%;
+    margin: 0;
 }
 
 body {
-    min-width: 300px;
-    max-width: 720px;
     margin: 0 auto;
 }
 
 header {
     text-align: center;
     padding: 0 0.625rem;
-    margin-bottom: 1.875rem;
-    margin-top: 1.875rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
 }
 
 h1 {
@@ -29,16 +30,15 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-
-
-
-
-
 form {
-    background-color: rgba(0, 0, 0, 50%);
+    min-width: 300px;
+    max-width: 720px;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 75%);
     display: block;
     margin: 0 auto;
     font-size: 1.25em;
+    border-radius: .5%;
 }
 
 fieldset {
@@ -48,4 +48,11 @@ fieldset {
 
 label {
     display: block;
+    margin: 0.5rem 0;
+}
+
+.profile, #dropdown, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
 }
